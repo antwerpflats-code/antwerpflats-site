@@ -1,0 +1,31 @@
+slug: ls1
+name: LS1
+title: 1-bedroom, recently renovated
+status: available
+bedrooms: 1
+bathrooms: 1
+size_m2: 40
+price_monthly: 985
+costs_included:
+  - Water
+  - Electricity & heating
+  - Furniture & fresh sheets
+  - Fire insurance
+deposit: 1480
+reservation_fee: 500
+notice_period: 1 month
+location: Lange Sint-Annastraat
+area_slug: lange-sint-annastraat
+nearby:
+  - Near public transport
+  - Walking distance to bars and restaurants
+  - Short walk to the Scheldt riverside
+ideal_for:
+  - Couple
+parking: false
+photos:
+  - https://static.wixstatic.com/media/b93b13_ccce8bb73f504084952ae457832bf962~mv2_d_4096_2160_s_2.jpeg
+description: >
+  A recently renovated 1-bedroom apartment on a quiet, residential stretch
+  near Lange Sint-Annastraat — close to public transport and a short walk
+  from bars and restaurants.

@@ -1,0 +1,30 @@
+slug: ls9
+name: LS9
+title: 4-bedroom, 3 floors
+status: available
+bedrooms: 4
+bathrooms: 3
+size_m2: 220
+price_monthly: 4200
+costs_included:
+  - Water
+  - Electricity & heating
+  - Furniture & fresh sheets
+  - Fire insurance
+deposit: 4575
+reservation_fee: 500
+notice_period: 1 month
+location: Central
+area_slug: lange-sint-annastraat
+nearby:
+  - Toilets on every floor
+  - Large patio
+ideal_for:
+  - Group of workers
+parking: false
+photos:
+  - /apartments/ls9/1.jpg
+description: >
+  A large 4-bedroom apartment spread across 3 floors, with a toilet on every
+  floor and a large patio — well suited to a group of workers needing space
+  and privacy.

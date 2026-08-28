@@ -1,0 +1,33 @@
+slug: fft2a
+name: FFT2A
+title: 2-bedroom, modern apartment
+status: available
+bedrooms: 2
+bathrooms: 1
+size_m2: 110
+price_monthly: 1735
+costs_included:
+  - Water
+  - Electricity & heating
+  - Furniture & fresh sheets
+  - Fire insurance
+deposit: 2585
+reservation_fee: 500
+notice_period: 1 month
+location: Italiëlei
+area_slug: italielei
+nearby:
+  - Near a parking garage
+  - Direct highway connection in any direction
+  - Easy connection to the harbor
+  - Close to the city center
+parking: true
+photos:
+  - https://static.wixstatic.com/media/b93b13_d9bc8719ae944f96978da54e7ebf3268~mv2.jpg
+  - https://static.wixstatic.com/media/b93b13_9e2dc8cfeaf84ff29f9d7b4afabc0b16~mv2_d_4928_3280_s_4_2.jpg
+  - https://static.wixstatic.com/media/b93b13_a441c6bf23d84f71a540ed8bc4ddd737~mv2_d_4928_3280_s_4_2.jpg
+description: >
+  A modern 2-bedroom apartment ideal for a family with 2 children. Located
+  close to a parking garage with easy access to the highway and harbor — a
+  practical base whether you're here for relocation, work, or a temporary
+  stay while your permanent housing is sorted out.

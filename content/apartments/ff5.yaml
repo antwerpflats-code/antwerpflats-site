@@ -1,0 +1,31 @@
+slug: ff5
+name: FF5
+title: 3-bedroom, 2 bathrooms
+status: available
+bedrooms: 3
+bathrooms: 2
+size_m2: 135
+price_monthly: 3935
+costs_included:
+  - Water
+  - Electricity & heating
+  - Furniture & fresh sheets
+  - Fire insurance
+deposit: 5900
+reservation_fee: 500
+notice_period: 1 month
+location: Ellermanstraat
+area_slug: ellermanstraat
+nearby:
+  - Edge of inner city
+  - Direct highway connection in any direction
+  - Easy connection to the harbor
+ideal_for:
+  - Group of workers
+parking: false
+photos:
+  - https://static.wixstatic.com/media/b93b13_2bee3717b8b94e6da15a5ce49b5eb7af~mv2.png
+description: >
+  A spacious 3-bedroom, 2-bathroom apartment on the edge of the inner city,
+  with direct highway and harbor access — a practical base for a group of
+  workers who need to move quickly between the apartment and the port.
