@@ -106,6 +106,15 @@ export default function ContactPage() {
           <textarea id="message" name="Message" rows="4"></textarea>
         </div>
 
+        <p style={{ fontSize: '0.82rem', color: 'var(--mist)' }}>
+          By submitting, you agree to your data being processed as
+          described in our{' '}
+          <a href="/privacy" style={{ textDecoration: 'underline' }}>
+            privacy policy
+          </a>
+          .
+        </p>
+
         <button type="submit" className="btn-primary" style={{ border: 'none', cursor: 'pointer', width: 'fit-content' }}>
           Send inquiry
         </button>

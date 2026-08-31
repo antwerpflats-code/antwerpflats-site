@@ -58,6 +58,43 @@ apartment whose `area_slug` matches will show up in its listing section.
   against before pointing your real domain at it, matching the "run in
   parallel first" plan.
 
+## Fonts (self-hosted, for GDPR compliance)
+
+The site previously loaded fonts from Google's CDN (`fonts.googleapis.com`),
+which sends every visitor's IP address to Google before any consent is
+given — this has specifically been ruled a GDPR violation by German courts.
+The code now expects self-hosted font files instead. One-time setup:
+
+1. Go to **gwfh.mranftl.com** (Google Webfonts Helper — a free tool that
+   packages Google's own font files for self-hosting).
+2. Search for **Fraunces**, select weights **400, 500, 600**, download the
+   woff2 files. Rename them to `fraunces-400.woff2`, `fraunces-500.woff2`,
+   `fraunces-600.woff2`.
+3. Search for **Inter**, select weights **400, 500, 600**, download and
+   rename to `inter-400.woff2`, `inter-500.woff2`, `inter-600.woff2`.
+4. Search for **IBM Plex Mono**, select weights **400, 500**, download and
+   rename to `ibm-plex-mono-400.woff2`, `ibm-plex-mono-500.woff2`.
+5. Drop all 8 files directly into `public/fonts/` (already created, empty
+   for now).
+
+That's it — `app/globals.css` already has the `@font-face` rules pointing
+to these exact filenames. No further code changes needed.
+
+(Note: the original Google Fonts CDN link used Fraunces' variable "optical
+size" axis; google-webfonts-helper only provides static weights, so there's
+a very minor difference in how the display serif renders at large sizes —
+not something visitors will notice.)
+
+## Privacy policy
+
+A draft privacy policy page lives at `/privacy` (`app/privacy/page.js`),
+linked from the footer and near the contact form, covering what the
+contact form collects, why, the FormSubmit third-party processor, and
+visitor rights under GDPR. **This is a starting draft, not legal
+sign-off** — have it reviewed before relying on it, since the exact
+wording (data retention period, international transfer details for
+FormSubmit, etc.) should be confirmed against your actual practices.
+
 ## Structure
 
 ```

@@ -26,6 +26,7 @@ export default function Footer() {
       </div>
       <div className="wrap footer-bottom">
         <span>© 1996–{new Date().getFullYear()} ANTWERPFLATS</span>
+        <a href="/privacy">Privacy policy</a>
       </div>
     </footer>
   );
