@@ -61,7 +61,10 @@ header{border-bottom:1px solid rgba(17,17,17,0.12);background:var(--paper);posit
 }
 .mobile-nav .nav-cta{
   margin:16px 28px;
+  padding:14px 18px;
   text-align:center;
+  color:var(--paper);
+  border-bottom:none;
 }
 .mobile-nav.open{
   max-height:400px;
