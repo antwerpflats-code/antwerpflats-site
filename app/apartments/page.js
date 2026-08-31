@@ -30,7 +30,7 @@ export default function ApartmentsPage() {
     <>
       <ManifestStrip />
 
-      <div className="wrap" style={{ padding: '56px 0 32px', borderBottom: '1px solid rgba(17,17,17,0.12)' }}>
+      <div className="wrap" style={{ paddingTop: '56px', paddingBottom: '32px', borderBottom: '1px solid rgba(17,17,17,0.12)' }}>
         <span className="eyebrow">Available now &amp; near future</span>
         <h1 style={{ fontSize: '2.6rem', color: 'var(--ink)', marginBottom: '14px' }}>
           Every apartment on the manifest
@@ -43,7 +43,7 @@ export default function ApartmentsPage() {
         </p>
       </div>
 
-      <div className="wrap" style={{ padding: '40px 0 80px' }}>
+      <div className="wrap" style={{ paddingTop: '40px', paddingBottom: '80px' }}>
         {apartments.map((apt) => {
           const availability = formatAvailability(apt);
           return (

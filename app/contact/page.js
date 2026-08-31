@@ -10,7 +10,7 @@ export default function ContactPage() {
   const apartments = getAllApartments();
 
   return (
-    <div className="wrap" style={{ padding: '56px 0 80px' }}>
+    <div className="wrap" style={{ paddingTop: '56px', paddingBottom: '80px' }}>
       <span className="eyebrow">Get in touch</span>
       <h1 style={{ fontSize: '2.4rem', color: 'var(--ink)', marginBottom: '14px' }}>
         Check availability

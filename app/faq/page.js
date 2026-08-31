@@ -28,7 +28,7 @@ export default function FaqPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
 
-      <div className="wrap" style={{ maxWidth: '900px', padding: '56px 28px 40px' }}>
+      <div className="wrap" style={{ maxWidth: '900px', paddingTop: '56px', paddingBottom: '40px' }}>
         <span className="eyebrow">Before you write in</span>
         <h1 style={{ fontSize: '2.6rem', color: 'var(--ink)', marginBottom: '14px' }}>
           Frequently asked questions
