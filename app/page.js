@@ -28,7 +28,7 @@ export default function HomePage() {
           <div>
             <p className="lede">
               Fully furnished apartments for expats, relocating professionals
-              and companies — every cost stated up front, nothing added
+              and families — every cost stated up front, nothing added
               later. Since 1996.
             </p>
             <div className="cta-row">

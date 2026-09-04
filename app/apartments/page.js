@@ -38,7 +38,7 @@ export default function ApartmentsPage() {
         <p style={{ maxWidth: '60ch', color: '#4A4640' }}>
           All prices are the full monthly total — water, electricity,
           heating, furniture and fresh sheets included. No hidden fees, ever.
-          Contact us with your group size and arrival date; we often have
+          Contact us with your number of people and arrival date; we often have
           more available than what&apos;s listed here.
         </p>
       </div>

@@ -8,7 +8,7 @@ export const metadata = {
     template: '%s — Antwerpflats',
   },
   description:
-    'Fully furnished apartments for expats, relocating professionals and companies in Antwerp. Every cost included, no hidden fees. Since 1996.',
+    'Fully furnished apartments for expats, relocating professionals and families in Antwerp. Every cost included, no hidden fees. Since 1996.',
 };
 
 const businessSchema = {
@@ -16,7 +16,7 @@ const businessSchema = {
   '@type': 'LodgingBusiness',
   name: 'Antwerpflats',
   description:
-    'Furnished, all-inclusive temporary housing in Antwerp for expats, relocating professionals and companies. Minimum stay 1 month.',
+    'Furnished, all-inclusive temporary housing in Antwerp for expats, relocating professionals and families. Minimum stay 1 month.',
   url: 'https://www.antwerpflats.biz',
   telephone: '+32472421327',
   email: 'info.antwerpflats@gmail.com',

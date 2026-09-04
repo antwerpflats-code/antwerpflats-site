@@ -42,7 +42,7 @@ export default function PrivacyPage() {
         </p>
         <ul style={{ marginLeft: '20px', marginBottom: '16px' }}>
           <li>Name and email address</li>
-          <li>Move-in date, expected duration, group size, and budget range</li>
+          <li>Move-in date, expected duration, amount of people, and budget range</li>
           <li>Which apartment you&apos;re interested in (if provided)</li>
           <li>Any message you write to us</li>
         </ul>

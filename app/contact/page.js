@@ -3,7 +3,7 @@ import { getAllApartments } from '@/lib/apartments';
 export const metadata = {
   title: 'Contact & check availability',
   description:
-    'Tell us your dates, group size and duration and we\'ll check what\'s available.',
+    'Tell us your dates, amount of people and duration and we\'ll check what\'s available.',
 };
 
 export default function ContactPage() {
@@ -16,7 +16,7 @@ export default function ContactPage() {
         Check availability
       </h1>
       <p style={{ maxWidth: '60ch', color: '#4A4640', marginBottom: '36px' }}>
-        Tell us your dates, group size and roughly what you&apos;re looking
+        Tell us your dates, amount of people and duration and we&apos;ll check what&apos;s available.
         for and we&apos;ll reply directly by email — often with options
         beyond what&apos;s listed on the site. Remember: minimum stay is 1
         month, and registration under the Flemish Housing decree is
